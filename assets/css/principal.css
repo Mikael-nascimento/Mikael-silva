@@ -19,15 +19,23 @@ body {
     }
 
     .circle {
-      width: 400px;
-      height: 400px;
+      /*width: 400px;
+      height: 400px;*/
+      width: 34%;
+      max-width: 400px;
+      min-width: 250px;
+      height: 34%;
+      max-height: 400px;
+      min-height: 136px;
       border-radius: 50%;
       position: relative;
     }
 
     .circle a {
-      width: 64px;
-      height: 64px;
+      /*width: 64px;
+      height: 64px;*/
+      width: 16%;
+      height: 16%;
       border-radius: 50%;
       background-color: #1d1b2a;
       position: absolute;
@@ -39,8 +47,10 @@ body {
     }
 
     .circle a img {
-      width: 36px;
-      height: 36px;
+      /*width: 36px;
+      height: 36px;*/
+      width: 56.3;
+      height: 56.3%;
     }
 
     .circle a:hover {
